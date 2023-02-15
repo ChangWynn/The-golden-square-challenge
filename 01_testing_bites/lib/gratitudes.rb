@@ -1,4 +1,4 @@
-class Person
+class Gratitudes
   def initialize
     @gratitudes = []
   end
