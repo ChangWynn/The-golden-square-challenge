@@ -1,4 +1,4 @@
-require "count_words"
+require "02_count_words"
 
 describe "count_words method" do
   it "fails if given argument is not a string" do

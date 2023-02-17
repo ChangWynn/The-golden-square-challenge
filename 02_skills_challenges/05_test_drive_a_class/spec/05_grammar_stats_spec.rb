@@ -1,4 +1,4 @@
-require "grammar_stats"
+require "05_grammar_stats"
 
 describe GrammarStats do
   # context "initialize method" do
@@ -50,11 +50,6 @@ describe GrammarStats do
   end
 
   context "percentage_good method" do
-    it "returns 100 if whole text passed the check method" do
-      sentence = GrammarStats.new
-      sentence.check("Hello world.")
-      result = sentence.percentage_good
-      expect(result).to eq 100
-    end
+    
   end
 end

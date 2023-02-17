@@ -32,5 +32,3 @@ class DiaryEntry
     end
   end
 end
-
-entry = DiaryEntry.new("day3", "Today was as awesome as yesterday I hope tomorrow will be too")

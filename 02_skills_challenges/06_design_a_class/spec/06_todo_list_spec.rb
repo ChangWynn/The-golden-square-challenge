@@ -1,4 +1,4 @@
-require "todo_list"
+require "06_todo_list"
 
 describe Todo_list do
   context "add_task method" do

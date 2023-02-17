@@ -1,4 +1,4 @@
-require "checking_grammar"
+require "03_checking_grammar"
 
 describe "checking_grammar method" do
   context "fails when argument is wrong" do

@@ -1,4 +1,4 @@
-require "diary_entry"
+require "05_diary_entry"
 
 describe DiaryEntry do
   it "throws an error if given wrong number of arguments" do
@@ -50,3 +50,5 @@ describe DiaryEntry do
     expect(chunk).to eq "Today was as awesome as yesterday I hope"
   end
 end
+
+

@@ -16,8 +16,6 @@ class Todo_list
   def mark_complete(task)
     raise "Task doesn't exist" unless @tasks.include?(task)
     @tasks.delete(task)
-
-
   end
 
 end

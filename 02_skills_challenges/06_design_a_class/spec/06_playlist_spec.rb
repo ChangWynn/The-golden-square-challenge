@@ -1,4 +1,4 @@
-require "playlist"
+require "06_playlist"
 
 describe Playlist do
     it "returns by default an empty array" do

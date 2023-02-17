@@ -1,4 +1,4 @@
-require "make_snippet"
+require "02_make_snippet"
 
 describe "make_snippet method" do
   context "given string of 5 words or less" do
