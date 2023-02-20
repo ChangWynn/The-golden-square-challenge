@@ -30,7 +30,7 @@ describe MusicLibrary do
   context "#search method" do
     it "should return a list of tracks that match the keyword" do
       library = MusicLibrary.new
-      track1 = double(:Track, matches?: true)
+      track1 = double :Track, matches?: true
       library.add(track1)
       expect(library.search("thriller")).to eq [track1]
     end
