@@ -37,7 +37,7 @@ describe Restaurant do
     end
     it "should throw an error if sms deliery was not successful" do
       twilio = double :twilio
-      number = '+44773711122'
+      number = '+44711111111'
       restaurant = Restaurant.new
       expect { restaurant.send_confirmation_sms(number) }.to raise_error "Sorry, there was a problem with your order"
     end

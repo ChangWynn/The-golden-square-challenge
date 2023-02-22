@@ -3,8 +3,8 @@ require 'twilio-ruby'
 require "date"
 
 class Restaurant
-  @@account_sid = 'AC8caa5bc70117d7a68f79296bdac5ffc4'
-  @@auth_token = '2871e8fe10984a2f0af9768629dcea8a'
+  @@account_sid = 'account sid'
+  @@auth_token = 'auth_token'
   @@client = Twilio::REST::Client.new(@@account_sid, @@auth_token)
 
   def initialize(kernel = Kernel, client = @@client)
@@ -31,7 +31,7 @@ class Restaurant
     begin
       @client.messages.create( 
         body: "Thank you! Your order was placed and will be delivered before #{etd}",  
-        messaging_service_sid: 'MGf222a945c93a634ce8f9fcf6ac00f660',      
+        messaging_service_sid: 'messaging_service_sid',      
         to: phone_number)
       return "SMS successfully delivered. ETD: #{etd}"
     rescue Twilio::REST::RestError => e
