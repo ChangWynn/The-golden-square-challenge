@@ -73,3 +73,4 @@ class Restaurant
       customerOrder.add(@menu[customer_choice - 1])
   end
 end
+
